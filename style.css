@@ -1,4 +1,4 @@
-/* universal styles */
+* universal styles */
 
 * {
     margin: 0;
@@ -24,15 +24,14 @@ body, html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    top: 0;
+    left: 0;
 }
 
 .header h2 {
-    
     font-weight: 600;
     font-size: 2rem;
     text-decoration: none;
-    /*margin-bottom: 20px;*/
     letter-spacing: 7px;
 }
 
@@ -53,14 +52,14 @@ span {
 
 .navbar ul li {
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 400;
     padding:0 25px;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color:bisque;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     letter-spacing: 5px;
     
 }
@@ -68,7 +67,6 @@ span {
 /* ----- nav hover effect ----- */
 .navbar ul li::after {
     content: "";
-    /* width: 100%; */ 
     width: 0%; /*to hide the lines */
     height: 2px; 
     background-color:#f44336 ;
@@ -81,4 +79,69 @@ span {
 /* show lines on hover */
 .navbar ul li:hover::after {
     width: 100%;
+}
+
+/* media query header content re-adjusted for smaller screen*/
+@media only screen and (max-width: 390px) {
+
+
+    .header {
+        padding: 0 12px;
+        
+    }
+
+    .header h2 {
+        font-size: 1rem;
+        letter-spacing: 0px;
+    
+    }
+
+    .navbar ul li {
+     padding:0 12px;
+     
+}
+
+    .navbar ul li a {
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    .header {
+        padding: 0 12px;
+        
+    }
+
+    .header h2 {
+        font-size: 1rem;
+        letter-spacing: 0px;
+    
+    }
+
+    .navbar ul li {
+     padding:0 12px;
+     
+}
+
+    .navbar ul li a {
+    font-size: 0.75rem;
+    letter-spacing: 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 890px) {
+
+    .header {
+        padding: 0 12px;
+    }
+
+    .navbar ul li a {
+        letter-spacing: 0px;
+        
+    }
 }
