@@ -1,0 +1,84 @@
+/* universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+/* header */
+
+.header {
+
+    width: 100%;
+    height: 80px;
+    background-color: #105378;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header h2 {
+    
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    /*margin-bottom: 20px;*/
+    letter-spacing: 7px;
+}
+
+span {
+    color: #FFDE2B;
+    letter-spacing: 0;
+    font-weight: 800;
+}
+
+.header .name-logo a {
+    text-decoration: none;
+    color:#F5F5DC;
+}
+
+.navbar ul {
+    display: flex;
+ }
+
+.navbar ul li {
+    list-style-type: none;
+    font-weight: 600;
+    padding:0 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:bisque;
+    font-size: 1.125rem;
+    letter-spacing: 5px;
+    
+}
+
+/* ----- nav hover effect ----- */
+.navbar ul li::after {
+    content: "";
+    /* width: 100%; */ 
+    width: 0%; /*to hide the lines */
+    height: 2px; 
+    background-color:#f44336 ;
+/*    #FFDE2B #F5F5DC*/
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+/* show lines on hover */
+.navbar ul li:hover::after {
+    width: 100%;
+}
