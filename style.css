@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body, html {
@@ -10,11 +11,11 @@ body, html {
     font-size: 16px;
     height: 100%;
     box-sizing: border-box;
+        
 }
 
 /* header */
 .header {
-
     width: 100%;
     height: 80px;
     background-color: #105378;
@@ -25,6 +26,8 @@ body, html {
     align-items: center;
     top: 0;
     left: 0;
+    
+    
 }
 
 .header h2 {
@@ -156,8 +159,8 @@ span {
     border-radius: 50%;
     opacity: 0.6;
     
-    
 }
+
 .about-wrapper {
     height: 500px;
     top: 10rem;
@@ -171,11 +174,12 @@ span {
     align-items: center;
     margin: 0 auto;
     transition: 0.5s;
+    margin-bottom: 18%;
     
 }
 
 .about-wrapper:hover {
-    box-shadow: 0 0 30px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.7);
     }
 
 .about-info {
@@ -190,6 +194,7 @@ span {
 .about-info h3 {
     font-style: oblique;
     color: #105378;
+    font-weight: 400;
 }
 .about-info p {
     color: #333;
@@ -242,3 +247,84 @@ span {
       }
     }
 
+    /* project section */
+
+.projects {
+    background-color: #d3e4f1;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.project-row {
+    background-color: #fff;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.projects img {
+    width: 100%;
+}
+/*.project-row:hover {
+    
+        padding: 30px;
+        margin: 10px;
+    }*/
+    .details {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+.projects h2 {
+    text-align: center;
+    color: #105378;
+    font-weight: 800;
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.details h3 {
+    color: #105378;
+}
+
+.details p {
+    font-size: 0.725rem;
+    color: #333;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*
+.projects .details {
+    width: 250px;
+}*/
+
+.projects h3 {
+    margin-top: 20px;
+}
+
+/*.details .prj-link {
+    margin: 15px 5px;
+}
+*/
+.details  button {
+    background-color: #009DD7;
+    border: none;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.details button:hover {
+    background-color: #FFDE2B;
+    color: black;
+}
