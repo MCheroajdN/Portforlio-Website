@@ -175,7 +175,7 @@ span {
 }
 
 .about-wrapper:hover {
-    box-shadow: 0 0 30px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.8);
     }
 
 .about-info {
@@ -186,7 +186,6 @@ span {
     color: #105378;
     font-weight: 800;
 }
-
 
 .about-info h3 {
     font-style: oblique;
@@ -205,10 +204,9 @@ span {
 @media only screen and (max-width: 390px) {
 
     .about-wrapper {
-        height: auto;
+       height: auto;
        flex-flow: column;
        margin: 0 auto;
-
     }
 
        .about-wrapper img {
@@ -221,7 +219,6 @@ span {
       text-align: center;
     }
     
-    
     .about-info p {
      padding: 0 15px;
         
@@ -233,19 +230,15 @@ span {
         height: auto;
        flex-flow: column;
        margin: 0 auto;
-
     }
 
     .about-info p {
      padding: 0 15px;
         
     }
+
     .about-info h2, .about-info h3 {
         text-align: center;
       }
-      
-
-    
-
-}
+    }
 
