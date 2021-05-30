@@ -162,7 +162,7 @@ span {
 }
 
 .about-wrapper {
-    height: 500px;
+    max-height: 500px;
     top: 10rem;
     position: relative;
     width: 100%;
@@ -175,6 +175,7 @@ span {
     margin: 0 auto;
     transition: 0.5s;
     margin-bottom: 18%;
+    
     
 }
 
@@ -252,31 +253,49 @@ span {
 .projects {
     background-color: #d3e4f1;
     max-width: 1100px;
-    margin: 100px auto;
+    margin: 0 auto;
+    height: auto;
+    /*margin:100px auto*/
+     
 }
 
 .project-row {
+     display: flex;
+    justify-content: space-evenly;
+     
+}
+
+/*.design-sys*/
+.proj-row-items {
     background-color: #fff;
     width: 250px;
+    /*width:30%;*/
     height: 350px;
-    margin: 10px;
+    /*margin: 10px;*/
     border-radius: 10px;
     padding: 10px;
+
 }
 
 .projects img {
     width: 100%;
 }
-/*.project-row:hover {
+
+/*.proj-row-items:hover {
     
+
         padding: 30px;
         margin: 10px;
     }*/
+
     .details {
         display:flex;
         justify-content: center;
         align-items: center;
         flex-flow: column;
+        
+        
+        
     }
 
 .projects h2 {
@@ -328,3 +347,21 @@ span {
     background-color: #FFDE2B;
     color: black;
 }
+
+.layer {
+        
+    /* background-color: rgba(226, 0, 0, 0.7); */
+    /*to hide the color layer to show only on hover */
+    background-color: transparent;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left:0;
+     transition: 0.3s;
+
+ }
+
+ .layer:hover {
+     background-color: rgba(207, 216, 220, 0.7);
+ }
