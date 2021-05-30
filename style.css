@@ -260,10 +260,19 @@ span {
 }
 
 .project-row {
-     display: flex;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
      
+}
+/*.proj-row-items {
+
+    transition: transform 0.4s;
+    
+}*/
+
+ .proj-row-items:hover{
+transform: scale(1.2);
 }
 
 /*.design-sys*/
@@ -273,11 +282,14 @@ span {
     /*width:30%;*/
     flex-basis: 25%;    
     height: 350px;
-    margin: 10px;
+    margin: 30px;
     border-radius: 10px;
     padding: 10px;
+    transition: 0.4s;
     
 }
+
+
 
 .projects img {
     width: 100%;
