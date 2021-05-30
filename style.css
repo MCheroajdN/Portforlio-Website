@@ -262,6 +262,7 @@ span {
 .project-row {
      display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
      
 }
 
@@ -270,11 +271,12 @@ span {
     background-color: #fff;
     width: 250px;
     /*width:30%;*/
+    flex-basis: 25%;    
     height: 350px;
-    /*margin: 10px;*/
+    margin: 10px;
     border-radius: 10px;
     padding: 10px;
-
+    
 }
 
 .projects img {
