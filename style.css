@@ -424,3 +424,78 @@ transform: scale(1.2);
 .skills-row .skills-img:hover {
     transform: scale(1.2);
 }
+
+/* contact section */
+
+.contact {
+    background-color: #d3e4f1;
+    margin: 0 auto;
+    height: 200px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 20px;
+    height: 350px;
+    
+}
+
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contact-page img {
+    width: 40%;
+    height: 40%;
+    }
+
+.contact h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #105378;
+        
+}
+
+.contact-page p {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+@media only screen and (max-width : 390px) {
+
+ .contact {
+     flex-flow: column;
+     align-content: center;
+ }   
+
+ .contact h2 {
+  font-size: 2rem;
+ }
+
+ .contact-page {
+    align-items: center;
+    flex-flow: column;
+}
+
+.contact-page p {
+    font-size: 1rem;
+}
+
+.contact-page img {
+    width: 50px;
+    height: 100%;
+    padding-left:15px;
+}   
+    
+}
+
+@media only screen and (max-width: 890px) {
+
+    .contact {
+        flex-flow: column;
+        align-content: center;
+    }   
+}
