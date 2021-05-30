@@ -310,7 +310,7 @@ transform: scale(1.2);
     padding: 30px;
     font-size: 2rem;
 }
-.projects p {
+.projects p .skills p{
     padding-left: 10px;
     font-size: 1.4rem;
 }
@@ -387,4 +387,40 @@ transform: scale(1.2);
     .proj-row-items {
         flex-basis: 35%;
         }
+}
+
+/* skills section */
+
+.skills {
+    margin: 80px auto;
+    max-width: 1100px;
+    
+}
+
+.skills h2 {
+    padding: 20px 50px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #105378;
+}
+
+
+.skills-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.skills-row .skills-img {
+        transition: 0.4s;
+        /*height: 100px;
+        width: 100px;*/
+        margin: 20px;
+    }
+
+    
+.skills-row .skills-img:hover {
+    transform: scale(1.2);
 }
