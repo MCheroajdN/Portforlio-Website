@@ -296,9 +296,7 @@ span {
         align-items: center;
         flex-flow: column;
         
-        
-        
-    }
+      }
 
 .projects h2 {
     text-align: center;
@@ -306,6 +304,10 @@ span {
     font-weight: 800;
     padding: 30px;
     font-size: 2rem;
+}
+.projects p {
+    padding-left: 10px;
+    font-size: 1.4rem;
 }
 
 .details h3 {
