@@ -157,7 +157,7 @@ span {
     width: 100%;
     max-width: 500px;
     border-radius: 50%;
-    opacity: 0.6;
+    opacity: 0.8;
     
 }
 
@@ -415,9 +415,7 @@ transform: scale(1.2);
 
 .skills-row .skills-img {
         transition: 0.4s;
-        /*height: 100px;
-        width: 100px;*/
-        margin: 20px;
+         margin: 20px;
     }
 
     
@@ -508,6 +506,7 @@ footer {
 
 .fa-heart {
     color:#FFDE2B;
+    
 
 }
 
