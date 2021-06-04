@@ -1,9 +1,9 @@
 function newPicture() {
 
-    document.getElementById("image").src="images/aboutimg1.jpg";
+    document.getElementById("image").src="images/aboutmouse-img.jpg";
 }
 
 function oldPicture() {
 
-    document.getElementById("image").src="images/aboutimg.jpg";
+    document.getElementById("image").src="images/about-img.jpg";
 }
