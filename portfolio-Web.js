@@ -7,3 +7,5 @@ function oldPicture() {
 
     document.getElementById("image").src="images/about-img.jpg";
 }
+
+
